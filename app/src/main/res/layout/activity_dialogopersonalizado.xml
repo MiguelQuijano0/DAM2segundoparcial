@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dialogopersonalizado">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intname"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/hintname"
+        android:layout_marginTop="12dp"
+        android:textColorHint="@color/purple_700"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/genero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:inputType="text"
+        android:hint="@string/hintgener"
+        android:layout_marginTop="12dp"
+        android:textColorHint="@color/purple_700"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genero"
+        android:inputType="text"
+        android:hint="@string/hintage"
+        android:layout_marginTop="12dp"
+        android:textColorHint="@color/purple_700"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/guardare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edad"
+        android:layout_gravity="center"
+        android:onClick="Guardar"
+        android:text="Guardar en el archivo" />
+
+</RelativeLayout>

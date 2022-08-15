@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DAM2segundoparcial</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="button">menu</string>
+    <string name="intname">Ingrese nombre</string>
+    <string name="hintname">Ingrese nombre</string>
+    <string name="hintage">Ingrese edad</string>
+    <string name="hintgener">Ingrese genero</string>
+</resources>
